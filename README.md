@@ -15,6 +15,8 @@
 
 ![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Projects/2a0a50c2be0e2e62916404aeb5707b3715e7fd48/MySpotifyListeningHistoryAnalysis/Dashboard1.png)
 
+[View Dashboards](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
+
 [View Source Code](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
 
 ### Project Overview
