@@ -1,68 +1,40 @@
-# 👋 Hi there, I'm [Your Name]!
+# 👋 Hi there, I'm Joble!
 
-### 💻 Developer | 🚀 Open Source Enthusiast | 🌐 Tech Explorer
+Welcome to my GitHub profile! I love making things work better — cleaner, simpler, and with purpose.
 
-Welcome to my GitHub profile! I’m passionate about building things that make an impact — from small automation scripts to full-scale applications.
+Whether I’m building a dashboard, writing SQL queries, or organizing a messy dataset, I’m driven by curiosity and the goal of turning information into insight.
 
----
+With experience spanning IT, research, and healthcare analytics, I’ve seen how data becomes powerful when people can feel what it means.
 
-## 🧠 About Me
-- 🔭 I’m currently working on: **[Your current project or focus area]**
-- 🌱 I’m learning: **[New technology or skill you’re exploring]**
-- 💬 Ask me about: **[Topics you’re comfortable discussing/helping with]**
-- 📫 Reach me at: **[Your email or social links]**
-- ⚡ Fun fact: **[Something interesting about you]**
-
----
-
-## 🛠️ Tech Stack
-
-**Languages:**  
-`Python` `JavaScript` `TypeScript` `C++` `Java` `HTML` `CSS`
-
-**Frameworks & Libraries:**  
-`React` `Node.js` `Express` `Next.js` `Django` `Flask`
-
-**Tools & Platforms:**  
-`Git` `Docker` `GitHub Actions` `Vercel` `AWS` `VS Code`
+I’m now looking to grow as a Data Analyst — collaborating with others, uncovering patterns, and telling meaningful stories through data.
 
 ---
 
 ## 📂 Featured Projects
 
-| Project | Description | Tech |
-|----------|--------------|------|
-| [🚀 Project One](https://github.com/yourusername/project-one) | A short, catchy description of your best project. | React, Node.js |
-| [📊 Project Two](https://github.com/yourusername/project-two) | Another great project that showcases your skills. | Python, Flask |
-| [🤖 Project Three](https://github.com/yourusername/project-three) | A cool automation or AI tool you’ve built. | Python, OpenAI API |
+### 🚀 [Project One Name](https://github.com/yourusername/project-one)
+> **Short tagline:** What your project does in one line.
 
-> 🧩 Check out more of my work in the [repositories section »](https://github.com/yourusername?tab=repositories)
+**📝 Description:**  
+Give a 2–3 sentence summary of what this project is about — what problem it solves, who it’s for, or what makes it cool.
 
----
+**⚙️ Tech Stack:**  
+`React` `Node.js` `MongoDB` `Tailwind CSS`
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180em" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight" alt="Top Languages" height="180em" />
-</p>
+**📸 Preview:**  
+![Project One Screenshot](https://raw.githubusercontent.com/yourusername/project-one/main/screenshot.png)
 
 ---
 
-## 🏆 Achievements
-- 🥇 [Hackathon Name or Award]
-- 🌍 Contributor to [Open Source Project]
-- 💡 Published [Blog/Article/Research]
+### 🤖 [Project Two Name](https://github.com/yourusername/project-two)
+> **Short tagline:** A short, catchy line about the project.
 
----
+**📝 Description:**  
+Describe this project briefly — mention key features, purpose, and what makes it unique.
 
-## 🌐 Connect With Me
+**⚙️ Tech Stack:**  
+`Python` `Flask` `OpenAI API`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=firefox)](https://yourportfolio.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)](mailto:youremail@example.com)
+**📸 Preview:**  
+![Project Two Screenshot](https://raw.githubusercontent.com/yourusername/project-two/main/demo.png)
 
----
-
-⭐ **"Code. Create. Inspire."**
