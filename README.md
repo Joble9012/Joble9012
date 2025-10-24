@@ -9,10 +9,11 @@
 ---
 
 ## Spotify Listening History Data Analysis
-[View Source Code](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
 
-### Preview
-![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Projects/main/MySpotifyListeningHistoryAnalysis/screenshot.png)
+
+![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Projects/2a0a50c2be0e2e62916404aeb5707b3715e7fd48/MySpotifyListeningHistoryAnalysis/Dashboard1.png)
+
+[View Source Code](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
 
 ### Project Overview
 This project dives into my personal Spotify listening history to uncover my music habits—what I listen to most, when I listen, and how patterns change over time.  
