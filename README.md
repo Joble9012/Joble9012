@@ -17,7 +17,7 @@
 
 [View Dashboards](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
 
-[View Source Code](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
+[View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
 ### Project Overview
 This project dives into my personal Spotify listening history to uncover my music habits—what I listen to most, when I listen, and how patterns change over time.  
@@ -45,7 +45,7 @@ After cleaning, I analyzed the data using **Python pandas** to identify top arti
 
 ![Random Artist Generator Screenshot](https://raw.githubusercontent.com/yourusername/project-two/main/demo.png)
 
-[View Source Code](https://github.com/Joble9012/Projects/tree/main/RandomArtistGenerator)  
+[View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
 
 ### Project Overview
 I noticed I kept listening to the same songs repeatedly. To break the routine and discover new artists, I created the **Random Artist Generator**, a Python application that uses the **Spotify Web API** to suggest artists, show details, and save them in a local database.
