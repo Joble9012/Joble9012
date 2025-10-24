@@ -11,11 +11,11 @@
 ## Spotify Listening History Data Analysis
 
 
-![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Projects/2a0a50c2be0e2e62916404aeb5707b3715e7fd48/MySpotifyListeningHistoryAnalysis/Dashboard1.png)
+![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/f05a1e72853e1ac452fe05bccedf462cc8873881/Dashboard1.png)
 
-![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Projects/2a0a50c2be0e2e62916404aeb5707b3715e7fd48/MySpotifyListeningHistoryAnalysis/Dashboard1.png)
+![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/f05a1e72853e1ac452fe05bccedf462cc8873881/Dashboard2.png)
 
-[View Dashboards](https://github.com/Joble9012/Projects/tree/main/MySpotifyListeningHistoryAnalysis)  
+[View Dashboards](https://public.tableau.com/views/Dashboard_17546697496100/ArtistSongDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
