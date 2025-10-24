@@ -3,8 +3,8 @@
 ---
 
 ## Table of Contents
-- [Spotify Listening History Data Analysis](#-spotify-listening-history-data-analysis)
-- [Random Artist Generator](#-random-artist-generator)
+- [Spotify Listening History Data Analysis](#spotify-listening-history-data-analysis)
+- [Random Artist Generator](#random-artist-generator)
 
 ---
 
