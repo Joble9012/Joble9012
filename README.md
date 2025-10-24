@@ -40,10 +40,10 @@ After cleaning, I analyzed the data using **Python pandas** to identify top arti
 ---
 
 ## Random Artist Generator
-[View Source Code](https://github.com/Joble9012/Projects/tree/main/RandomArtistGenerator)  
 
-### Preview
 ![Random Artist Generator Screenshot](https://raw.githubusercontent.com/yourusername/project-two/main/demo.png)
+
+[View Source Code](https://github.com/Joble9012/Projects/tree/main/RandomArtistGenerator)  
 
 ### Project Overview
 I noticed I kept listening to the same songs repeatedly. To break the routine and discover new artists, I created the **Random Artist Generator**, a Python application that uses the **Spotify Web API** to suggest artists, show details, and save them in a local database.
@@ -55,13 +55,6 @@ I noticed I kept listening to the same songs repeatedly. To break the routine an
 - **Duplicate Prevention:** Ensures no repeated artists  
 - **View All Artists:** Lists all saved artists with details  
 - **Clear Database:** Wipes stored artists easily
-
-### Modes of Use
-- **GUI (`app_ui.py`)** — Tkinter interface with buttons and scrollable display  
-- **CLI (`main.py`)** — Interactive terminal-based version
-
-### Tech Stack
-`Python` `Tkinter` `SQLite` `Spotipy` `dotenv`
 
 ### How It Works
 1. **Spotify API Connection:** Uses Spotipy with your Spotify API credentials  
@@ -78,3 +71,6 @@ Upcoming ideas include:
 - [ ] Improved and more polished UI  
 - [ ] Mobile-friendly version  
 - [ ] Integration with my Spotify listening history to make personalized suggestions
+
+### Tech Stack
+`Python` `Tkinter` `SQLite` `Spotipy` `dotenv`
