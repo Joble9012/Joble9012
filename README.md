@@ -1,16 +1,6 @@
-# 👋 Hi there, I'm Joble!
-
-Welcome to my GitHub profile! I love making things work better — cleaner, simpler, and with purpose.
-
-Whether I’m building a dashboard, writing SQL queries, or organizing a messy dataset, I’m driven by curiosity and the goal of turning information into insight.
-
-With experience spanning IT, research, and healthcare analytics, I’ve seen how data becomes powerful when people can feel what it means.
-
-I’m now looking to grow as a Data Analyst — collaborating with others, uncovering patterns, and telling meaningful stories through data.
+# 👋 Hi there, I'm Joble and Welcome to my GitHub Project Portfolio! 
 
 ---
-
-## 📂 Featured Projects
 
 ### 🚀 [Project One Name](https://github.com/yourusername/project-one)
 > **Short tagline:** What your project does in one line.
