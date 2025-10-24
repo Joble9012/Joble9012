@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Joble — Welcome to my GitHub Project Portfolio! 
+# 👋 Hi there, I'm Joble — Welcome to my Project Portfolio! 
 
 ---
 
