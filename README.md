@@ -32,14 +32,22 @@ Ultimately, this project combines data analysis and storytelling—turning years
 
 
 ### What I Did
+To start, I requested my Spotify listening history through their data request feature. A few days later, I received around ten separate JSON files containing roughly 900,000 streaming records.
 
-I downloaded my full Spotify history as multiple JSON files containing timestamps, track and artist names, and play durations in milliseconds. The first step was consolidating all data into a clean CSV file. During cleaning using Python, I:  
-- Removed unnecessary columns (platform details, IP addresses, audiobook fields)  
-- Filtered out outliers (e.g., *“White Noise 3 Hour Long”*)  
-- Formatted dates and converted milliseconds to minutes  
-- Retained plays from 2018 onward only  
+I began by exploring the structure of the files—examining column names, checking sample entries, and understanding what each field represented. Then, using Python and pandas, I cleaned and consolidated the data into a single CSV file. This involved:
+- Merging all JSON files into one dataset
+- Removing unnecessary columns (e.g., IP addresses, platform details, audiobook fields)
+- Filtering out outliers like ambient noise tracks (e.g., “White Noise 3 Hour Long”)
+- Formatting timestamps and converting milliseconds to minutes
+- Keeping only data from 2018 onward to ensure consistency
 
-After cleaning, I analyzed the data using **Python pandas** to identify top artists, most-played songs, and total listening hours. Visualizations were created with **Tableau** dashboards.
+Once the data was cleaned, I performed exploratory data analysis (EDA) to uncover trends and insights. Using Python, I identified metrics such as top artists, top tracks, total listening time, and yearly listening distribution.
+
+After completing the analysis, I imported the cleaned dataset into Tableau to design interactive dashboards. I created two main dashboards:
+Listening Over Time – focused on trends by day, month, and year
+Artists & Songs – highlighting my most-played artists and tracks
+
+In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
 
 ### Key Findings
