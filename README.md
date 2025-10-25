@@ -20,7 +20,14 @@
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
 ### Overview & Objective
-This project dives into my personal Spotify listening history to uncover my music habits—what I listen to most, when I listen, and how patterns change over time.  
+Music has always been woven into my daily routine—whether I’m on my way to school, studying, working out, or just relaxing. Over the years, Spotify has become a constant companion, silently collecting data about my listening habits. This project explores that history to uncover what my music says about me—what artists and genres dominate my playlists, when I tend to listen the most, and how my habits have evolved over time.
+
+The objective of this project is to analyze and visualize my personal Spotify listening history to gain deeper insight into my listening behavior. By transforming raw Spotify streaming data into meaningful metrics, I aimed to answer questions like:
+Which artists and songs have defined different periods of my life?
+What time of day or week do I listen most frequently?
+How have my preferences shifted over the years?
+
+Ultimately, this project combines data analysis and storytelling—turning years of streaming history into a visual reflection of my music journey.
 
 
 
@@ -41,7 +48,13 @@ After cleaning, I analyzed the data using **Python pandas** to identify top arti
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
 4. **Monthly Patterns:** No single “highest” month — habits vary yearly.
 
-### Challenges & Learnings
+### Reflection
+Working with Spotify’s data presented a few unexpected challenges. The raw JSON files were large, inconsistent, and split across multiple exports, which made data consolidation and cleaning the most time-consuming step. I had to carefully parse timestamps, remove duplicate entries, and convert milliseconds to meaningful units like minutes and hours.
+Another challenge was handling incomplete or misleading data, such as songs with extremely short play durations or non-music content (like white noise or podcasts). Designing filters to exclude these outliers was key to keeping the analysis accurate.
+
+On the visualization side, learning to effectively use Tableau to tell a clear story through charts and dashboards pushed me to think critically about data presentation—how to highlight patterns without cluttering the view.
+
+Through this project, I strengthened my skills in data wrangling, analysis, and visualization, while also gaining a new appreciation for how much data can reveal about personal habits. Beyond the technical side, it was fascinating to see my music taste evolve and connect those trends to different stages of my life.
 
 ### Tech Stack
 `Python` `Pandas` `Tableau`
