@@ -37,7 +37,7 @@ After cleaning, I analyzed the data using **Python pandas** to identify top arti
 4. **Monthly Patterns:** No single “highest” month — habits vary yearly.
 
 ### Tech Stack
-`Python` `pandas` `Tableau` `MS Excel`
+`Python` `Pandas` `Tableau`
 
 ---
 
@@ -75,4 +75,4 @@ Upcoming ideas include:
 - [ ] Integration with my Spotify listening history to make personalized suggestions
 
 ### Tech Stack
-`Python` `Tkinter` `SQLite` `Spotipy` `dotenv`
+`Python` `Tkinter` `SQLite` `Spotipy` `Dotenv`
