@@ -76,25 +76,53 @@ Through this project, I strengthened my skills in data wrangling, analysis, and 
 [View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
 
 ### Overview & Objective
-I noticed I kept listening to the same songs repeatedly. To break the routine and discover new artists, I created the **Random Artist Generator**, a Python application that uses the **Spotify Web API** to suggest artists, show details, and save them in a local database.
+As someone who listens to music every day, I found myself stuck in a loop — playing the same songs and artists over and over again. With so much music available, discovering something new often felt overwhelming.
+
+To break that cycle and explore fresh sounds, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
+
+This project combines my love for music with programming, aiming to make music discovery effortless and engaging.
 
 ### What I Did
 
-- **Random Artist Generation:** Pulls a random artist from Spotify above a set popularity score  
-- **Artist Details:** Displays artist name, popularity, genres, and clickable Spotify link  
-- **Database Storage:** Saves discovered artists in a local SQLite database  
-- **Duplicate Prevention:** Ensures no repeated artists  
-- **View All Artists:** Lists all saved artists with details  
-- **Clear Database:** Wipes stored artists easily
+- **Designed and implemented** a full Python application that generates and manages random music artists using the **Spotify API**.
 
-How It Works
-1. **Spotify API Connection:** Uses Spotipy with your Spotify API credentials  
-2. **Random Search:** Selects a random letter, fetches 50 artists, filters by popularity  
-3. **Display & Save:** Shows artist details and saves to `artists.db`  
-4. **Avoid Repeats:** Skips artists already stored
+- **Built two user interfaces:**
+  - A **command-line interface (CLI)** in `main.py` for terminal-based interaction.  
+  - A **graphical user interface (GUI)** in `app_ui.py` using **Tkinter**, allowing users to generate random artists, view saved artists, and clear the database.
+
+- **Integrated Spotify API** via the `spotipy` library and `SpotifyClientCredentials` for secure, authenticated artist data retrieval.
+
+- **Implemented database management** with **SQLite3:**
+  - Created and maintained an `artists.db` database through `artist_db.py`.  
+  - Added functionality to check for duplicates (`artist_exists`), insert new artists (`save_artist`), and clear all records (`clear_db.py`).
+
+- **Developed logic for random artist selection** in `spotify_client.py`:  
+  - Fetched artists using random search letters.  
+  - Filtered by popularity to ensure quality results.  
+  - Avoided duplicates using artist IDs.
+
+- **Enabled persistent data storage**, so previously generated artists are saved locally for later viewing.
+
+- **Created a separate viewer utility** (`view_artists.py`) to list all saved artists with their popularity, genres, and Spotify links.
+
+- **Enhanced user experience with:**
+  - Clickable Spotify links in the GUI.  
+  - Scrollable text areas for displaying multiple entries.  
+  - Confirmation dialogs and clear success/error messages.
+
+- **Documented dependencies** in a `requirements.txt` file for easy environment setup (`spotipy`, `python-dotenv`).
+
+- **Used environment variables** for secure Spotify API credentials management (`.env` file).
+
 
 ### Reflection
-This project is still in its early stages, and I’m excited to expand its capabilities.  
+Building the Random Artist Generator was a rewarding experience that combined my passion for music with software development. It pushed me to work with real-world APIs, manage authentication securely, and design both command-line and graphical interfaces that make the app accessible to different users.
+
+Working with the Spotify API taught me how to handle API rate limits, parse complex JSON responses, and filter meaningful data for a better user experience. Implementing a local SQLite database added another layer of learning — I gained hands-on experience in data persistence, relational design, and CRUD operations.
+
+I also learned the value of clean UI design and user interaction — small touches like clickable links, confirmation prompts, and clear feedback significantly improved usability.
+
+Overall, this project strengthened my skills in Python, API integration, and database management, while also reminding me how creativity and coding can come together to make everyday experiences — like finding new music — simpler and more enjoyable.
 
 Upcoming ideas include:  
 - [ ] Genre filter with checkboxes to discover artists from specific styles  
