@@ -43,7 +43,7 @@ After cleaning, I analyzed the data using **Python pandas** to identify top arti
 
 ## Random Artist Generator
 
-![Random Artist Generator Screenshot](https://raw.githubusercontent.com/yourusername/project-two/main/demo.png)
+![Random Artist Generator Screenshot](https://raw.githubusercontent.com/Joble9012/Images/642298eb37114e0e41da65824c479a177e199ff1/RandomArtistGeneratorImage.png)
 
 [View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
 
