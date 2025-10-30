@@ -78,7 +78,7 @@ Through this project, I strengthened my skills in data wrangling, analysis, and 
 ### Overview & Objective
 As someone who listens to music every day, I found myself stuck in a loop — playing the same songs and artists over and over again. With so much music available, discovering something new often felt overwhelming.
 
-To break that cycle and explore fresh sounds, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
+To break that cycle and explore fresh music, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
 
 This project combines my love for music with programming, aiming to make music discovery effortless and engaging.
 
@@ -116,13 +116,11 @@ This project combines my love for music with programming, aiming to make music d
 
 
 ### Reflection
-Building the Random Artist Generator was a rewarding experience that combined my passion for music with software development. It pushed me to work with real-world APIs, manage authentication securely, and design both command-line and graphical interfaces that make the app accessible to different users.
+Building the Random Artist Generator was a rewarding experience,iIt pushed me to work with real-world APIs, manage authentication securely, and design both command-line and graphical interfaces that make the app accessible to different users.
 
-Working with the Spotify API taught me how to handle API rate limits, parse complex JSON responses, and filter meaningful data for a better user experience. Implementing a local SQLite database added another layer of learning — I gained hands-on experience in data persistence, relational design, and CRUD operations.
+Working with the Spotify API taught me how to handle API rate limits, parse complex JSON responses, and filter meaningful data for a better user experience. Implementing a local SQLite database added another layer of learning. I gained hands-on experience in data persistence, relational design, and CRUD operations.
 
-I also learned the value of clean UI design and user interaction — small touches like clickable links, confirmation prompts, and clear feedback significantly improved usability.
-
-Overall, this project strengthened my skills in Python, API integration, and database management, while also reminding me how creativity and coding can come together to make everyday experiences — like finding new music — simpler and more enjoyable.
+I also learned the value of clean UI design and user interaction, small touches like clickable links, confirmation prompts, and clear feedback significantly improved usability. Overall, this project strengthened my skills in Python, API integration, and database management.
 
 Upcoming ideas include:  
 - [ ] Genre filter with checkboxes to discover artists from specific styles  
