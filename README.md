@@ -20,7 +20,7 @@
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
 ### Overview & Objective
-Music has always been woven into my daily routine—whether I’m on my way to school, studying, working out, or just relaxing. Over the years, Spotify has become a constant companion, silently collecting data about my listening habits. This project explores that history to uncover what my music says about me—what artists and genres dominate my playlists, when I tend to listen the most, and how my habits have evolved over time.
+Music has always been a part of my daily routine—whether I’m on my way to school, studying, working out, or just relaxing. Over the years, Spotify has become a constant companion, silently collecting data about my listening habits. This project explores that history to uncover what my music says about me, what artists and genres dominate my playlists, when I tend to listen the most, and how my habits have evolved over time.
 
 The objective of this project is to analyze and visualize my personal Spotify listening history to gain deeper insight into my listening behavior. By transforming raw Spotify streaming data into meaningful metrics, I aimed to answer questions like:
 Which artists and songs have defined different periods of my life?
@@ -34,7 +34,7 @@ Ultimately, this project combines data analysis and storytelling—turning years
 ### What I Did
 To start, I requested my Spotify listening history through their data request feature. A few days later, I received around ten separate JSON files containing roughly 900,000 streaming records.
 
-I began by exploring the structure of the files—examining column names, checking sample entries, and understanding what each field represented. Then, using Python and pandas, I cleaned and consolidated the data into a single CSV file. This involved:
+I began by exploring the structure of the files, examining column names, checking sample entries, and understanding what each field represented. Then, using Python and pandas, I cleaned and consolidated the data into a single CSV file. This involved:
 - Merging all JSON files into one dataset
 - Removing unnecessary columns (e.g., IP addresses, platform details, audiobook fields)
 - Filtering out outliers like ambient noise tracks (e.g., “White Noise 3 Hour Long”)
@@ -44,7 +44,7 @@ I began by exploring the structure of the files—examining column names, checki
 Once the data was cleaned, I performed exploratory data analysis (EDA) to uncover trends and insights. Using Python, I identified metrics such as top artists, top tracks, total listening time, and yearly listening distribution.
 
 After completing the analysis, I imported the cleaned dataset into Tableau to design interactive dashboards. I created two main dashboards:
-Listening Over Time – focused on trends by day, month, and year
+Listening Over Time – focused on trends by hourly, day, and month.
 Artists & Songs – highlighting my most-played artists and tracks
 
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
