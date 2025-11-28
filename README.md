@@ -38,7 +38,7 @@ I began by exploring the structure of the files, examining column names, checkin
 - Formatting timestamps and converting milliseconds to minutes
 - Keeping only data from 2018 onward to ensure consistency
 
-Once the data was cleaned, I imported the cleaned dataset into Tableau to design interactive dashboards. I created a dashboards that focused on Listening Over Time by focused on trends by hourly and weekday. Also top Artists & Songs.
+After cleaning the data, I brought the refined dataset into Tableau and began shaping it into a single interactive dashboard. I designed it to tell the story of my listening habits over time, showing how they shift by hour and weekday, while also spotlighting the artists and songs I played the most.
 
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
@@ -49,10 +49,7 @@ In designing the visualizations, my goal was to balance insight and simplicity�
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
 
 ### Reflection
-Working with Spotify’s data presented a few unexpected challenges. The raw JSON files were large, inconsistent, and split across multiple exports, which made data consolidation and cleaning the most time-consuming step. I had to carefully parse timestamps, remove duplicate entries, and convert milliseconds to meaningful units like minutes and hours.
-Another challenge was handling incomplete or misleading data, such as songs with extremely short play durations or non-music content (like white noise or podcasts). Designing filters to exclude these outliers was key to keeping the analysis accurate.
-
-On the visualization side, learning to effectively use Tableau to tell a clear story through charts and dashboards pushed me to think critically about data presentation—how to highlight patterns without cluttering the view.
+Working with Spotify’s data came with a few unexpected challenges. On the visualization side, learning to use Tableau effectively pushed me to think more intentionally about how to tell a clear story through charts and dashboards. At first, I assumed that having multiple dashboards and more charts would make the project stronger. But after doing more research, I realized that clarity matters far more than quantity—sometimes a few well-chosen visualizations can be more powerful and meaningful than a cluttered collection of graphs.
 
 Through this project, I strengthened my skills in data wrangling, analysis, and visualization, while also gaining a new appreciation for how much data can reveal about personal habits. Beyond the technical side, it was fascinating to see my music taste evolve and connect those trends to different stages of my life.
 
