@@ -79,16 +79,6 @@ The dashboards visualize:
 - Sales drop post-September, especially for fruit drinks.  
 - Peak hours 2–6 PM; weekends highest activity.  
 
-### 4. Store Location Insights
-- Grant Ave tops with ~18K sales; Abington follows at ~15K.  
-- Northeast underperforms (~6K sales), needing attention.  
-- Stores selling popular drinks (smoothies, milk teas) perform best.  
-
-### 5. Product-Level Insights
-- Top sellers: Strawberry Fruit Sherbet, Black Tiger Milk, Mango Smoothies (~3–4.5K each).  
-- Niche/specialty drinks under 100 sales, showing low demand.  
-- Drinks with pearls gain higher popularity among toppings. 
-
 ## Recommendations
 ### 1. Increase Focus on High-Demand Categories
 - Expand smoothies & fruit teas, including seasonal variants.  
@@ -104,16 +94,6 @@ The dashboards visualize:
 - Boost Sparkling/Winter Melon drinks with bundles & campaigns.  
 - Northeast: local ads, exclusive items, in-store sampling.  
 - Adjust operations based on foot traffic analysis.  
-
-### 4. Seasonal Marketing Strategy
-- Heavy promotions May–August (summer drinks, Happy Hour).  
-- Introduce appealing winter drinks (hot milk/fruit teas).  
-- Align campaigns with seasonal customer preferences.  
-
-### 5. Personalize the Customer Experience
-- Default online orders to 50%–75% sugar.  
-- Recommend popular toppings (tapioca, jelly).  
-- Implement topping loyalty bonuses to increase order value. 
 
 ## Reflection
 This project gave me hands-on experience applying a full data analytics workflow from start to finish, strengthening my skills in data generation, cleaning, visualization, and interpretation while also teaching me to think critically about real-world business problems. The most challenging—and rewarding—part was creating the synthetic dataset, as generating realistic daily sales that reflected seasonal demand, time-of-day peaks, and customer preferences required careful planning and iterative adjustments. This process not only simulated real-world business scenarios but also helped me appreciate the complexity behind seemingly simple sales data. Through the project, I gained a deeper understanding of how data can inform strategic decisions in multi-location retail and developed stronger analytical intuition for spotting patterns, identifying growth opportunities, and recommending actionable solutions. Overall, the experience reinforced my ability to transform raw data into meaningful insights that drive business performance.
