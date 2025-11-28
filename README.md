@@ -3,6 +3,7 @@
 ---
 
 # Table of Contents
+- [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
 - [Spotify Listening History Data Analysis](#spotify-listening-history-data-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
