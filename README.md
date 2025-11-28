@@ -10,10 +10,7 @@
 
 ## Spotify Listening History Data Analysis
 
-
-![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/f05a1e72853e1ac452fe05bccedf462cc8873881/Dashboard1.png)
-
-![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/f05a1e72853e1ac452fe05bccedf462cc8873881/Dashboard2.png)
+![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
 
 [View Dashboards](https://public.tableau.com/views/Dashboard_17546697496100/ArtistSongDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 
