@@ -15,88 +15,76 @@
 [**View Dashboards**](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 [**View Source Code**](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)
 
-## Overview & Objective
-Bubble tea has been a big part of my life since college—I get it several times a month and enjoy the variety of flavors and customizations. My favorite chain is **Mr. Wish**, mainly due to convenience.  
-This project analyzes **five Mr. Wish locations** using realistic custom-generated retail sales data. I collected each location’s menu and pricing to build an accurate dataset and demonstrate a full analytics workflow on a real-world problem.
+## Overview
+Bubble tea has been a big part of my life since college, and Mr. Wish is my go-to chain. This project analyzes sales performance across five Mr. Wish locations using a fully custom-generated, realistic dataset based on actual menus and pricing.  
+The goal was to simulate a real multi-location retail environment and demonstrate a complete analytics workflow—from data creation to insights and visualization.
 
-# 1. Define — Business Problem & Purpose
+## Project Purpose
+Management at multi-location retailers often lacks clear visibility into performance differences across stores, product trends, and customer behaviors. This project aims to answer questions such as:
 
-## Business Problem
-Mr. Wish lacks a consolidated analytics process across its five locations. Management currently has limited visibility into:
+- Which stores perform best and why?  
+- Which drinks drive the most revenue?  
+- How do preferences (toppings, sugar levels, temperature) influence sales?  
+- What seasonal or time-based patterns exist?  
+- How do payment methods differ by location?
 
+The objective was to analyze **12 months** of synthetic sales data and produce meaningful insights and recommendations.
+
+## What I Built
+To keep the project realistic and manageable, I generated and analyzed a complete year of bubble tea retail data (Jan–Dec 2024). Key components include:
+
+### Data Generation  
+A Python script generated daily transactions with realistic patterns such as:
+- Seasonal demand (higher in summer)  
 - Store performance differences  
-- Revenue contribution by product and size  
-- Seasonal and time-of-day demand patterns  
-- Customer behavior (sugar levels, toppings, drink temperature)  
-- Operational differences such as payment method usage  
+- Weighted drink popularity  
+- Sugar/ice/topping logic  
+- Weekday vs. weekend behavior  
+- Time-of-day peaks  
 
-## Goal
-Build an end-to-end analytics solution to uncover insights about store performance, customer behavior, and product trends to support data-driven decisions.
+### Data Preparation  
+I cleaned and structured the data into tables such as:
+- **Stores**  
+- **Products**  
+- **Sales transactions**
 
-## SMART Objective
-Analyze **12 months** of synthetic sales data from **five store locations** to identify top performers, seasonal patterns, and store-level differences, and deliver recommendations within **4–6 weeks**.
+Data validation and quality checks ensured consistency across generated fields.
 
-# 2. Scope — What the Project Includes & Excludes
+### Analysis  
+I explored:
+- Revenue by store  
+- Top-selling drinks  
+- Monthly and seasonal trends  
+- Popular sugar levels, temperatures, and toppings  
+- Peak purchasing times  
+- Payment preferences (cash vs card)
 
-## In Scope
-
-### Data Generation
-Generate a full year of transaction-level data (Jan–Dec 2024) featuring:
-- Seasonal demand cycles  
-- Store performance differences  
-- Drink popularity weighting  
-- Sugar-level, toppings, and temperature logic  
-- Time-of-day patterns  
-- Weekday vs. weekend differences  
-
-### Data Cleaning & Preparation
-- Validate generated variables  
-- Structure datasets (Sales, Products, Stores)  
-- Perform data quality checks  
-
-### Exploratory Data Analysis
-- Store performance  
-- Product mix & top sellers  
-- Monthly & seasonal trends  
-- Sugar-level & topping preferences  
-- Peak hour / peak day analysis  
-- Payment method distribution  
-
-### Visualization
-Create dashboards using Tableau, Power BI, or Python, including:
+### Dashboards  
+The dashboards visualize:
 - Monthly revenue trends  
-- Sales by store  
-- Top products  
-- Drink temperature preferences  
+- Store comparisons  
+- Product performance  
+- Customer preference patterns  
 - Topping usage  
-- Time-of-day heatmaps  
+- Time-of-day heatmaps
 
-### Recommendations & Insights
-Provide insights on:
-- Product promotion  
-- Inventory planning  
-- Seasonal marketing  
-- Store optimization  
+## Key Insights
+- **Summer months drive the highest revenue**, suggesting strong seasonality.  
+- **Fruit teas and brown sugar drinks** are consistently the top sellers.  
+- Store-level differences show unique customer behaviors—some locations prefer more toppings or larger sizes.  
+- **Medium sugar** and **50% ice** are the most common selections.  
+- **Card payments dominate weekdays**, while weekends see more cash usage.
 
-## Out of Scope
-- No real customer or POS data (synthetic only)  
-- No machine learning forecasting or clustering  
-- No HR or staffing data  
-- No POS system integration  
+## Recommendations
+- Increase marketing and inventory for fruit teas and brown sugar drinks across all stores.  
+- Prepare for seasonal spikes by adjusting staffing and stock during summer months.  
+- Tailor promotions by store based on local behavior (e.g., topping-heavy locations).  
+- Standardize medium-sugar preparation to reduce variability and speed up service.  
+- Adjust cash handling schedules to match weekend patterns.
 
-## Final Scope Statement
-This project analyzes one year of synthetic bubble tea retail transactions generated via a custom Python script. It includes data preparation, exploration, visualization, and insights focused on store performance, product trends, customer preferences, and seasonal patterns across five locations.
-
-# 3. Recommendations & Insights
-1. **Seasonal Peak:** Higher sales during warmer months suggest opportunities for summer promotions and limited-time items.  
-2. **Top Sellers:** Fruit teas and brown sugar drinks consistently generate the most revenue.  
-3. **Store Differences:** Add-on usage and drink size popularity vary by location, reflecting neighborhood preferences.  
-4. **Operational Insight:** Card payments dominate weekdays; cash is more common on weekends, impacting cash-handling workflows.  
-5. **Customer Preferences:** Medium sugar and 50% ice levels are most common, supporting standardized preparation guidelines.
-
-# Reflection
-This project reinforced the importance of clean, intentional visualization. Rather than using many charts, a small set of well-designed visuals can tell a clearer story.  
-Along with improving skills in data wrangling, analysis, and dashboard design, the project offered insights into customer behavior and retail patterns—showing how much a well-designed dataset can reveal.
+## Reflection
+This project taught me the value of clear, intentional dashboard design. Instead of creating many charts, I focused on visuals that actually support decision-making.  
+It also strengthened my skills in data generation, cleaning, analysis, and storytelling—while letting me explore a topic I genuinely enjoy.
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
