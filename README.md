@@ -2,13 +2,108 @@
 
 ---
 
-## Table of Contents
+# Table of Contents
 - [Spotify Listening History Data Analysis](#spotify-listening-history-data-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
 ---
 
-## Spotify Listening History Data Analysis
+# Bubble Tea Retail Sales Analysis
+
+![Bubble Tea Dashboard](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
+
+[**View Dashboards**](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+[**View Source Code**](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)
+
+## Overview & Objective
+Bubble tea has been a big part of my life since college—I get it several times a month and enjoy the variety of flavors and customizations. My favorite chain is **Mr. Wish**, mainly due to convenience.  
+This project analyzes **five Mr. Wish locations** using realistic custom-generated retail sales data. I collected each location’s menu and pricing to build an accurate dataset and demonstrate a full analytics workflow on a real-world problem.
+
+# 1. Define — Business Problem & Purpose
+
+## Business Problem
+Mr. Wish lacks a consolidated analytics process across its five locations. Management currently has limited visibility into:
+
+- Store performance differences  
+- Revenue contribution by product and size  
+- Seasonal and time-of-day demand patterns  
+- Customer behavior (sugar levels, toppings, drink temperature)  
+- Operational differences such as payment method usage  
+
+## Goal
+Build an end-to-end analytics solution to uncover insights about store performance, customer behavior, and product trends to support data-driven decisions.
+
+## SMART Objective
+Analyze **12 months** of synthetic sales data from **five store locations** to identify top performers, seasonal patterns, and store-level differences, and deliver recommendations within **4–6 weeks**.
+
+# 2. Scope — What the Project Includes & Excludes
+
+## In Scope
+
+### Data Generation
+Generate a full year of transaction-level data (Jan–Dec 2024) featuring:
+- Seasonal demand cycles  
+- Store performance differences  
+- Drink popularity weighting  
+- Sugar-level, toppings, and temperature logic  
+- Time-of-day patterns  
+- Weekday vs. weekend differences  
+
+### Data Cleaning & Preparation
+- Validate generated variables  
+- Structure datasets (Sales, Products, Stores)  
+- Perform data quality checks  
+
+### Exploratory Data Analysis
+- Store performance  
+- Product mix & top sellers  
+- Monthly & seasonal trends  
+- Sugar-level & topping preferences  
+- Peak hour / peak day analysis  
+- Payment method distribution  
+
+### Visualization
+Create dashboards using Tableau, Power BI, or Python, including:
+- Monthly revenue trends  
+- Sales by store  
+- Top products  
+- Drink temperature preferences  
+- Topping usage  
+- Time-of-day heatmaps  
+
+### Recommendations & Insights
+Provide insights on:
+- Product promotion  
+- Inventory planning  
+- Seasonal marketing  
+- Store optimization  
+
+## Out of Scope
+- No real customer or POS data (synthetic only)  
+- No machine learning forecasting or clustering  
+- No HR or staffing data  
+- No POS system integration  
+
+## Final Scope Statement
+This project analyzes one year of synthetic bubble tea retail transactions generated via a custom Python script. It includes data preparation, exploration, visualization, and insights focused on store performance, product trends, customer preferences, and seasonal patterns across five locations.
+
+# 3. Recommendations & Insights
+1. **Seasonal Peak:** Higher sales during warmer months suggest opportunities for summer promotions and limited-time items.  
+2. **Top Sellers:** Fruit teas and brown sugar drinks consistently generate the most revenue.  
+3. **Store Differences:** Add-on usage and drink size popularity vary by location, reflecting neighborhood preferences.  
+4. **Operational Insight:** Card payments dominate weekdays; cash is more common on weekends, impacting cash-handling workflows.  
+5. **Customer Preferences:** Medium sugar and 50% ice levels are most common, supporting standardized preparation guidelines.
+
+# Reflection
+This project reinforced the importance of clean, intentional visualization. Rather than using many charts, a small set of well-designed visuals can tell a clearer story.  
+Along with improving skills in data wrangling, analysis, and dashboard design, the project offered insights into customer behavior and retail patterns—showing how much a well-designed dataset can reveal.
+
+## Tech Stack
+`Python` `Pandas` `Tableau`
+
+---
+
+# Spotify Listening History Data Analysis
 
 ![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
 
@@ -16,7 +111,7 @@
 
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
-### Overview & Objective
+## Overview & Objective
 Music has always been a part of my daily routine—whether I’m on my way to school, studying, working out, or just relaxing. Over the years, Spotify has become a constant companion, silently collecting data about my listening habits. This project explores that history to uncover what my music says about me, what artists and genres dominate my playlists, when I tend to listen the most, and how my habits have evolved over time.
 
 The objective of this project is to analyze and visualize my personal Spotify listening history to gain deeper insight into my listening behavior. By transforming raw Spotify streaming data into meaningful metrics, I aimed to answer questions like:
@@ -28,7 +123,7 @@ Ultimately, this project combines data analysis and storytelling—turning years
 
 
 
-### What I Did
+## What I Did
 To start, I requested my Spotify listening history through their data request feature. A few days later, I received around ten separate JSON files containing roughly 900,000 streaming records.
 
 I began by exploring the structure of the files, examining column names, checking sample entries, and understanding what each field represented. Then, using Python and pandas, I cleaned and consolidated the data into a single CSV file. This involved:
@@ -43,35 +138,35 @@ After cleaning the data, I brought the refined dataset into Tableau and began sh
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
 
-### Key Findings
+## Key Findings
 1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
 2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
 
-### Reflection
+## Reflection
 Working with Spotify’s data came with a few unexpected challenges. On the visualization side, learning to use Tableau effectively pushed me to think more intentionally about how to tell a clear story through charts and dashboards. At first, I assumed that having multiple dashboards and more charts would make the project stronger. But after doing more research, I realized that clarity matters far more than quantity—sometimes a few well-chosen visualizations can be more powerful and meaningful than a cluttered collection of graphs.
 
 Through this project, I strengthened my skills in data wrangling, analysis, and visualization, while also gaining a new appreciation for how much data can reveal about personal habits. Beyond the technical side, it was fascinating to see my music taste evolve and connect those trends to different stages of my life.
 
-### Tech Stack
+## Tech Stack
 `Python` `Pandas` `Tableau`
 
 ---
 
-## Random Artist Generator
+# Random Artist Generator
 
 ![Random Artist Generator Screenshot](https://raw.githubusercontent.com/Joble9012/Images/642298eb37114e0e41da65824c479a177e199ff1/RandomArtistGeneratorImage.png)
 
 [View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
 
-### Overview & Objective
+## Overview & Objective
 As someone who listens to music every day, I found myself stuck in a loop — playing the same songs and artists over and over again. With so much music available, discovering something new often felt overwhelming.
 
 To break that cycle and explore fresh music, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
 
 This project combines my love for music with programming, aiming to make music discovery effortless and engaging.
 
-### What I Did
+## What I Did
 
 - **Designed and implemented** a full Python application that generates and manages random music artists using the **Spotify API**.
 
@@ -104,7 +199,7 @@ This project combines my love for music with programming, aiming to make music d
 - **Used environment variables** for secure Spotify API credentials management (`.env` file).
 
 
-### Reflection
+## Reflection
 Building the Random Artist Generator was a rewarding experience,iIt pushed me to work with real-world APIs, manage authentication securely, and design both command-line and graphical interfaces that make the app accessible to different users.
 
 Working with the Spotify API taught me how to handle API rate limits, parse complex JSON responses, and filter meaningful data for a better user experience. Implementing a local SQLite database added another layer of learning. I gained hands-on experience in data persistence, relational design, and CRUD operations.
@@ -118,5 +213,5 @@ Upcoming ideas include:
 - [ ] Mobile-friendly version  
 - [ ] Integration with my Spotify listening history to make personalized suggestions
 
-### Tech Stack
+## Tech Stack
 `Python` `Tkinter` `SQLite` `Spotipy` `Dotenv`
