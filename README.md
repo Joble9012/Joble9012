@@ -24,11 +24,10 @@ The goal was to simulate a real multi-location retail environment and demonstrat
 ## Project Purpose
 Management at multi-location retailers often lacks clear visibility into performance differences across stores, product trends, and customer behaviors. This project aims to answer questions such as:
 
-- Which stores perform best and why?  
+- Which stores perform best?  
 - Which drinks drive the most revenue?  
 - How do preferences (toppings, sugar levels, temperature) influence sales?  
 - What seasonal or time-based patterns exist?  
-- How do payment methods differ by location?
 
 The objective was to analyze **12 months** of synthetic sales data and produce meaningful insights and recommendations.
 
