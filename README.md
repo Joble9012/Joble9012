@@ -29,7 +29,7 @@ Management at multi-location retailers often lacks clear visibility into perform
 - How do preferences (toppings, sugar levels, temperature) influence sales?  
 - What seasonal or time-based patterns exist?  
 
-The objective was to analyze **12 months** of synthetic sales data and produce meaningful insights and recommendations.
+The objective was to analyze 12 months of synthetic sales data and produce meaningful insights and recommendations.
 
 ## What I Built
 To keep the project realistic and manageable, I generated and analyzed a complete year of bubble tea retail data (Jan–Dec 2024). Key components include:
@@ -43,20 +43,16 @@ A Python script generated daily transactions with realistic patterns such as:
 - Weekday vs. weekend behavior  
 - Time-of-day peaks  
 
-### Data Preparation  
+### Data Preparation & Data Quality Check
 I cleaned and structured the data into tables such as:
-- **Stores**  
-- **Products**  
-- **Sales transactions**
+- Stores  
+- Products  
+- Sales transactions
 
-### Data Quality Check.py
-I explored:
-- Revenue by store  
-- Top-selling drinks  
-- Monthly and seasonal trends  
-- Popular sugar levels, temperatures, and toppings  
-- Peak purchasing times  
-- Payment preferences (cash vs card)
+To ensure data reliability, I performed validation checks by:
+- Identifying and handling missing values
+- Detecting and removing duplicates
+- Verifying consistent date formatting
 
 ### Dashboards  
 The dashboards visualize:
@@ -68,22 +64,59 @@ The dashboards visualize:
 - Time-of-day heatmaps
 
 ## Key Insights
-- **Summer months drive the highest revenue**, suggesting strong seasonality.  
-- **Fruit teas and brown sugar drinks** are consistently the top sellers.  
-- Store-level differences show unique customer behaviors—some locations prefer more toppings or larger sizes.  
-- **Medium sugar** and **50% ice** are the most common selections.  
-- **Card payments dominate weekdays**, while weekends see more cash usage.
+### 1. Product & Category Insights
+- Smoothies lead with 17K+ sales, outperforming all other drinks.  
+- Milk Tea & Fruit Tea strong (13K+ sales), showing diverse tastes.  
+- Seasonal & Sparkling drinks underperform, signaling growth opportunities.  
+
+### 2. Customer Preference Insights
+- Large (L) drinks dominate at 63% of sales.  
+- 50%–75% sugar levels preferred, representing 35K+ sales.  
+- Cold drinks are overwhelmingly favored (92% of orders).  
+
+### 3. Time & Season Insights
+- Revenue peaks May–August (warm season).  
+- Sales drop post-September, especially for fruit drinks.  
+- Peak hours 2–6 PM; weekends highest activity.  
+
+### 4. Store Location Insights
+- Grant Ave tops with ~18K sales; Abington follows at ~15K.  
+- Northeast underperforms (~6K sales), needing attention.  
+- Stores selling popular drinks (smoothies, milk teas) perform best.  
+
+### 5. Product-Level Insights
+- Top sellers: Strawberry Fruit Sherbet, Black Tiger Milk, Mango Smoothies (~3–4.5K each).  
+- Niche/specialty drinks under 100 sales, showing low demand.  
+- Drinks with pearls gain higher popularity among toppings. 
 
 ## Recommendations
-- Increase marketing and inventory for fruit teas and brown sugar drinks across all stores.  
-- Prepare for seasonal spikes by adjusting staffing and stock during summer months.  
-- Tailor promotions by store based on local behavior (e.g., topping-heavy locations).  
-- Standardize medium-sugar preparation to reduce variability and speed up service.  
-- Adjust cash handling schedules to match weekend patterns.
+### 1. Increase Focus on High-Demand Categories
+- Expand smoothies & fruit teas, including seasonal variants.  
+- Promote bestsellers with combo deals or loyalty rewards.  
+- Highlight top-selling drinks in marketing campaigns.  
+
+### 2. Optimize Inventory & Operations
+- Stock ingredients for peak-demand drinks (fruit purées, tapioca, jelly).  
+- Ensure sufficient large cups & cold drink supplies.  
+- Scale staff 2–6 PM & weekends to improve service.  
+
+### 3. Strengthen Low-Performing Categories & Stores
+- Boost Sparkling/Winter Melon drinks with bundles & campaigns.  
+- Northeast: local ads, exclusive items, in-store sampling.  
+- Adjust operations based on foot traffic analysis.  
+
+### 4. Seasonal Marketing Strategy
+- Heavy promotions May–August (summer drinks, Happy Hour).  
+- Introduce appealing winter drinks (hot milk/fruit teas).  
+- Align campaigns with seasonal customer preferences.  
+
+### 5. Personalize the Customer Experience
+- Default online orders to 50%–75% sugar.  
+- Recommend popular toppings (tapioca, jelly).  
+- Implement topping loyalty bonuses to increase order value. 
 
 ## Reflection
-This project taught me the value of clear, intentional dashboard design. Instead of creating many charts, I focused on visuals that actually support decision-making.  
-It also strengthened my skills in data generation, cleaning, analysis, and storytelling—while letting me explore a topic I genuinely enjoy.
+This project gave me hands-on experience applying a full data analytics workflow from start to finish, strengthening my skills in data generation, cleaning, visualization, and interpretation while also teaching me to think critically about real-world business problems. The most challenging—and rewarding—part was creating the synthetic dataset, as generating realistic daily sales that reflected seasonal demand, time-of-day peaks, and customer preferences required careful planning and iterative adjustments. This process not only simulated real-world business scenarios but also helped me appreciate the complexity behind seemingly simple sales data. Through the project, I gained a deeper understanding of how data can inform strategic decisions in multi-location retail and developed stronger analytical intuition for spotting patterns, identifying growth opportunities, and recommending actionable solutions. Overall, the experience reinforced my ability to transform raw data into meaningful insights that drive business performance.
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
