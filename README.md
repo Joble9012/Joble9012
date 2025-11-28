@@ -40,9 +40,7 @@ I began by exploring the structure of the files, examining column names, checkin
 
 Once the data was cleaned, I performed exploratory data analysis (EDA) to uncover trends and insights. Using Python, I identified metrics such as top artists, top tracks, total listening time, and yearly listening distribution.
 
-After completing the analysis, I imported the cleaned dataset into Tableau to design interactive dashboards. I created two main dashboards:
-Listening Over Time – focused on trends by hourly, day, and month.
-Artists & Songs – highlighting my most-played artists and tracks
+After completing the analysis, I imported the cleaned dataset into Tableau to design interactive dashboards. I created a dashboards that focused on Listening Over Time by focused on trends by hourly and weekday. Also top Artists & Songs.
 
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
