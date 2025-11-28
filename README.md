@@ -14,7 +14,7 @@
 ![Bubble Tea Dashboard](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
 
 [**View Dashboards**](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-[**View Source Code**](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)
+[**View Source Code**](https://github.com/Joble9012/BubbleTeaRetailSalesAnalysis)
 
 ## Overview
 Bubble tea has been a big part of my life since college, and Mr. Wish is my go-to chain. This project analyzes sales performance across five Mr. Wish locations using a fully custom-generated, realistic dataset based on actual menus and pricing.  
@@ -94,7 +94,7 @@ It also strengthened my skills in data generation, cleaning, analysis, and story
 
 ![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
 
-[View Dashboards](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+[View Dashboard](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
