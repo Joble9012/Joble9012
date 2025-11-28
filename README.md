@@ -49,9 +49,7 @@ I cleaned and structured the data into tables such as:
 - **Products**  
 - **Sales transactions**
 
-Data validation and quality checks ensured consistency across generated fields.
-
-### Analysis  
+### Data Quality Check.py
 I explored:
 - Revenue by store  
 - Top-selling drinks  
