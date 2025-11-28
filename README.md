@@ -38,9 +38,7 @@ I began by exploring the structure of the files, examining column names, checkin
 - Formatting timestamps and converting milliseconds to minutes
 - Keeping only data from 2018 onward to ensure consistency
 
-Once the data was cleaned, I performed exploratory data analysis (EDA) to uncover trends and insights. Using Python, I identified metrics such as top artists, top tracks, total listening time, and yearly listening distribution.
-
-After completing the analysis, I imported the cleaned dataset into Tableau to design interactive dashboards. I created a dashboards that focused on Listening Over Time by focused on trends by hourly and weekday. Also top Artists & Songs.
+Once the data was cleaned, I imported the cleaned dataset into Tableau to design interactive dashboards. I created a dashboards that focused on Listening Over Time by focused on trends by hourly and weekday. Also top Artists & Songs.
 
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
@@ -49,7 +47,6 @@ In designing the visualizations, my goal was to balance insight and simplicity�
 1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
 2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
-4. **Monthly Patterns:** No single “highest” month — habits vary yearly.
 
 ### Reflection
 Working with Spotify’s data presented a few unexpected challenges. The raw JSON files were large, inconsistent, and split across multiple exports, which made data consolidation and cleaning the most time-consuming step. I had to carefully parse timestamps, remove duplicate entries, and convert milliseconds to meaningful units like minutes and hours.
