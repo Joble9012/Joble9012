@@ -11,7 +11,8 @@
 
 # Bubble Tea Retail Sales Analysis
 
-![Bubble Tea Dashboard](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
+![Bubble Tea Dashboard](https://raw.githubusercontent.com/Joble9012/Images/1bc7616826ae67a99340c91a63defbe6d4803fb4/BTDashboard1.png)
+![Bubble Tea Dashboard](https://raw.githubusercontent.com/Joble9012/Images/1bc7616826ae67a99340c91a63defbe6d4803fb4/BTDashboard2.png)
 
 [**View Dashboards**](https://public.tableau.com/views/Dashboard_17546697496100/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 [**View Source Code**](https://github.com/Joble9012/BubbleTeaRetailSalesAnalysis)
