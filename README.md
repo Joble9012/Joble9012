@@ -22,7 +22,7 @@ Bubble tea has been a big part of my life since college, and Mr. Wish is my go-t
 The goal was to simulate a real multi-location retail environment and demonstrate a complete analytics workflow—from data creation to insights and visualization.
 
 ## Project Purpose
-Management at multi-location retailers often lacks clear visibility into performance differences across stores, product trends, and customer behaviors. This project aims to answer questions such as:
+Management at Mr. Wish often lacks clear visibility into performance differences across stores, product trends, and customer behaviors. This project aims to answer questions such as:
 
 - Which stores perform best?  
 - Which drinks drive the most revenue?  
@@ -36,7 +36,7 @@ To keep the project realistic and manageable, I generated and analyzed a complet
 
 ### Data Generation  
 A Python script generated daily transactions with realistic patterns such as:
-- Seasonal demand (higher in summer)  
+- Seasonal demand  
 - Store performance differences  
 - Weighted drink popularity  
 - Sugar/ice/topping logic  
@@ -96,7 +96,7 @@ The dashboards visualize:
 - Adjust operations based on foot traffic analysis.  
 
 ## Reflection
-This project gave me hands-on experience applying a full data analytics workflow from start to finish, strengthening my skills in data generation, cleaning, visualization, and interpretation while also teaching me to think critically about real-world business problems. The most challenging—and rewarding—part was creating the synthetic dataset, as generating realistic daily sales that reflected seasonal demand, time-of-day peaks, and customer preferences required careful planning and iterative adjustments. This process not only simulated real-world business scenarios but also helped me appreciate the complexity behind seemingly simple sales data. Through the project, I gained a deeper understanding of how data can inform strategic decisions in multi-location retail and developed stronger analytical intuition for spotting patterns, identifying growth opportunities, and recommending actionable solutions. Overall, the experience reinforced my ability to transform raw data into meaningful insights that drive business performance.
+This project gave me hands-on experience applying a full data analytics workflow from start to finish, strengthening my skills in data generation, cleaning, visualization, and interpretation while also teaching me to think critically about real-world business problems. The hardest but most rewarding part was creating the synthetic dataset. Making realistic daily sales that matched seasonal trends, busy times of day, and customer preferences took a lot of planning and trial and error. This not only mimicked real business situations but also showed me how complex sales data can really be. Through the project, I gained a deeper understanding of how data can inform strategic decisions in multi-location retail and developed stronger analytical intuition for spotting patterns, identifying growth opportunities, and recommending actionable solutions. Overall, the experience reinforced my ability to transform raw data into meaningful insights that drive business performance.
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
