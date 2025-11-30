@@ -4,7 +4,7 @@
 
 # Table of Contents
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
-- [Spotify Listening History Data Analysis](#spotify-listening-history-data-analysis)
+- [Spotify Listening History Data Analysis](#spotify-listening-history-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
 ---
@@ -103,7 +103,7 @@ This project gave me hands-on experience applying a full data analytics workflow
 
 ---
 
-# Spotify Listening History Data Analysis
+# Spotify Listening History Analysis
 
 ![Spotify Project Screenshot](https://raw.githubusercontent.com/Joble9012/Images/3962cd7673171616888e08585046db49f7303344/Dashboard.png)
 
