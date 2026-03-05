@@ -220,9 +220,9 @@ This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) datase
 - Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
 
 ## Key Insights
-1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
-2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
-3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
+1. 
+2. 
+3. 
 
 ## Tech Stack
 `Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
