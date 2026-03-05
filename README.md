@@ -196,14 +196,7 @@ This project combines my love for music with programming, aiming to make music d
 - **Used environment variables** for secure Spotify API credentials management (`.env` file).
 
 
-## Reflection
-Building the Random Artist Generator was a rewarding experience,iIt pushed me to work with real-world APIs, manage authentication securely, and design both command-line and graphical interfaces that make the app accessible to different users.
-
-Working with the Spotify API taught me how to handle API rate limits, parse complex JSON responses, and filter meaningful data for a better user experience. Implementing a local SQLite database added another layer of learning. I gained hands-on experience in data persistence, relational design, and CRUD operations.
-
-I also learned the value of clean UI design and user interaction, small touches like clickable links, confirmation prompts, and clear feedback significantly improved usability. Overall, this project strengthened my skills in Python, API integration, and database management.
-
-Upcoming ideas include:  
+## Upcoming Ideas Include  
 - [ ] Genre filter with checkboxes to discover artists from specific styles  
 - [ ] Album randomizer mode  
 - [ ] Improved and more polished UI  
