@@ -3,11 +3,24 @@
 ---
 
 # Table of Contents
+- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#Drug-Safety-&-Adverse-Event-Analysis-(FAERS-2023))
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
 - [Spotify Listening History Analysis](#spotify-listening-history-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
 ---
+# Drug Safety & Adverse Event Analysis (FAERS 2023)
+
+![FAERS Dashboard]()
+![FAERS Dashboard]()
+
+[**View Source Code**](https://github.com/Joble9012/FAERS2023AdverseEventsAnalysis)
+
+## Overview
+This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
+
+## Tech Stack
+`Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
 
 # Bubble Tea Retail Sales Analysis
 
