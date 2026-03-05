@@ -209,15 +209,15 @@ This project combines my love for music with programming, aiming to make music d
 This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
 
 ## What I Did
-- **Designed and implemented a Databricks ETL pipeline to ingest, clean, and unify multiple FAERS tables.
+- Designed and implemented a Databricks ETL pipeline to ingest, clean, and unify multiple FAERS tables.
 
-- **Created Silver layer tables for standardized demographic, drug, reaction, and outcome data.
+- Created Silver layer tables for standardized demographic, drug, reaction, and outcome data.
 
-- **Developed Gold layer tables and queries for actionable insights on drug safety, including top drugs by death cases, frequent adverse reactions, and demographic risk.
+- Developed Gold layer tables and queries for actionable insights on drug safety, including top drugs by death cases, frequent adverse reactions, and demographic risk.
 
-- **Built a dashboard reflecting analytical results to provide interactive visualizations of patient safety metrics.
+- Built a dashboard reflecting analytical results to provide interactive visualizations of patient safety metrics.
 
-- **Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
+- Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
 
 ## Key Insights
 1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
