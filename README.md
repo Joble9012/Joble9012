@@ -94,9 +94,6 @@ The dashboards visualize:
 - Northeast: local ads, exclusive items, in-store sampling.  
 - Adjust operations based on foot traffic analysis.  
 
-## Reflection
-This project gave me hands-on experience applying a full data analytics workflow from start to finish, strengthening my skills in data generation, cleaning, visualization, and interpretation while also teaching me to think critically about real-world business problems. The hardest but most rewarding part was creating the synthetic dataset. Making realistic daily sales that matched seasonal trends, busy times of day, and customer preferences took a lot of planning and trial and error. This not only mimicked real business situations but also showed me how complex sales data can really be. Through the project, I gained a deeper understanding of how data can inform strategic decisions in multi-location retail and developed stronger analytical intuition for spotting patterns, identifying growth opportunities, and recommending actionable solutions. Overall, the experience reinforced my ability to transform raw data into meaningful insights that drive business performance.
-
 ## Tech Stack
 `Python` `Pandas` `Tableau`
 
@@ -139,11 +136,6 @@ In designing the visualizations, my goal was to balance insight and simplicity�
 1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
 2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
-
-## Reflection
-Working with Spotify’s data came with a few unexpected challenges. On the visualization side, learning to use Tableau effectively pushed me to think more intentionally about how to tell a clear story through charts and dashboards. At first, I assumed that having multiple dashboards and more charts would make the project stronger. But after doing more research, I realized that clarity matters far more than quantity—sometimes a few well-chosen visualizations can be more powerful and meaningful than a cluttered collection of graphs.
-
-Through this project, I strengthened my skills in data wrangling, analysis, and visualization, while also gaining a new appreciation for how much data can reveal about personal habits. Beyond the technical side, it was fascinating to see my music taste evolve and connect those trends to different stages of my life.
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
@@ -215,6 +207,11 @@ This project combines my love for music with programming, aiming to make music d
 
 ## Overview
 This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
+
+## Key Insights
+1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
+2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
+3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
 
 ## Tech Stack
 `Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
