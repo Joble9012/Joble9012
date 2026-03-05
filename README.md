@@ -105,7 +105,7 @@ The dashboards visualize:
 
 [View Source Code](https://github.com/Joble9012/SpotifyListeningHistoryDataAnalysis)  
 
-## Overview & Objective
+## Overview
 Music has always been a part of my daily routine—whether I’m on my way to school, studying, working out, or just relaxing. Over the years, Spotify has become a constant companion, silently collecting data about my listening habits. This project explores that history to uncover what my music says about me, what artists and genres dominate my playlists, when I tend to listen the most, and how my habits have evolved over time.
 
 The objective of this project is to analyze and visualize my personal Spotify listening history to gain deeper insight into my listening behavior. By transforming raw Spotify streaming data into meaningful metrics, I aimed to answer questions like:
@@ -132,7 +132,7 @@ After cleaning the data, I brought the refined dataset into Tableau and began sh
 In designing the visualizations, my goal was to balance insight and simplicity—showing the most meaningful patterns without overwhelming the viewer. I styled the dashboards to resemble Spotify’s clean UI aesthetic, and experimented with filters that allow exploration by year and month.
 
 
-## Key Findings
+## Key Insights
 1. **Lowest Listening Day:** Sundays had the least listening time (family, church, errands).  
 2. **Consistent Top Artists:** *Post Malone* and *Juice WRLD* appear consistently over the years.  
 3. **Peak Listening Time:** Around **3:00 PM**, likely tied to afternoon activity or work sessions.  
@@ -148,7 +148,7 @@ In designing the visualizations, my goal was to balance insight and simplicity�
 
 [View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
 
-## Overview & Objective
+## Overview
 As someone who listens to music every day, I found myself stuck in a loop — playing the same songs and artists over and over again. With so much music available, discovering something new often felt overwhelming.
 
 To break that cycle and explore fresh music, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
