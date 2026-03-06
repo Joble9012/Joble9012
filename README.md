@@ -4,6 +4,7 @@
 
 # Table of Contents
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
+- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#Drug-Safety-&-Adverse-Event-Analysis-(FAERS-2023))
 - [Spotify Listening History Analysis](#spotify-listening-history-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
@@ -96,6 +97,31 @@ The dashboards visualize:
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
+
+---
+# Drug Safety & Adverse Event Analysis (FAERS 2023)
+
+![FAERS Dashboard](https://github.com/Joble9012/Images/blob/f94bd79004f421c224a338c76038a571d41d5e1f/FAERSCodePreview.jpg)
+![FAERS Dashboard](https://github.com/Joble9012/Images/blob/f94bd79004f421c224a338c76038a571d41d5e1f/FAERSDashboard.jpg)
+
+[**View Source Code**](https://github.com/Joble9012/FAERS2023AdverseEventsAnalysis)
+
+## Overview
+This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
+
+## What I Did
+- Designed and implemented a Databricks ETL pipeline to ingest, clean, and unify multiple FAERS tables.
+
+- Created Silver layer tables for standardized demographic, drug, reaction, and outcome data.
+
+- Developed Gold layer tables and queries for actionable insights on drug safety, including top drugs by death cases, frequent adverse reactions, and demographic risk.
+
+- Built a dashboard reflecting analytical results to provide interactive visualizations of patient safety metrics.
+
+- Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
+
+## Tech Stack
+`Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
 
 ---
 
@@ -198,33 +224,4 @@ This project combines my love for music with programming, aiming to make music d
 ## Tech Stack
 `Python` `Tkinter` `SQLite` `Spotipy` `Dotenv`
 
-# Drug Safety & Adverse Event Analysis (FAERS 2023)
 
-![FAERS Dashboard]()
-![FAERS Dashboard]()
-
-[**View Source Code**](https://github.com/Joble9012/FAERS2023AdverseEventsAnalysis)
-
-## Overview
-This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
-
-## What I Did
-- Designed and implemented a Databricks ETL pipeline to ingest, clean, and unify multiple FAERS tables.
-
-- Created Silver layer tables for standardized demographic, drug, reaction, and outcome data.
-
-- Developed Gold layer tables and queries for actionable insights on drug safety, including top drugs by death cases, frequent adverse reactions, and demographic risk.
-
-- Built a dashboard reflecting analytical results to provide interactive visualizations of patient safety metrics.
-
-- Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
-
-## Key Insights
-1. 
-2. 
-3. 
-
-## Tech Stack
-`Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
-
-- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#Drug-Safety-&-Adverse-Event-Analysis-(FAERS-2023))
