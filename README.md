@@ -4,7 +4,7 @@
 
 # Table of Contents
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
-- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#drug-safety-&-adverse-event-analysis-(faers-2023))
+- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#drug-safety--adverse-event-analysis-faers-2023)
 - [Spotify Listening History Analysis](#spotify-listening-history-analysis)
 - [Random Artist Generator](#random-artist-generator)
 
