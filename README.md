@@ -101,7 +101,6 @@ The dashboards visualize:
 ---
 # Drug Safety & Adverse Event Analysis (FAERS 2023)
 
-![FAERS Dashboard](https://github.com/Joble9012/Images/blob/f94bd79004f421c224a338c76038a571d41d5e1f/FAERSCodePreview.jpg)
 ![FAERS Dashboard](https://github.com/Joble9012/Images/blob/f94bd79004f421c224a338c76038a571d41d5e1f/FAERSDashboard.jpg)
 
 [**View Source Code**](https://github.com/Joble9012/FAERS2023AdverseEventsAnalysis)
