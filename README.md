@@ -20,7 +20,7 @@
 Bubble tea has been a big part of my life since college, and Mr. Wish is my go-to chain. This project analyzes sales performance across five Mr. Wish locations using a fully custom-generated, realistic dataset based on actual menus and pricing.  
 The goal was to simulate a real multi-location retail environment and demonstrate a complete analytics workflow—from data creation to insights and visualization.
 
-## Project Purpose
+## Business Problem
 Management at Mr. Wish often lacks clear visibility into performance differences across stores, product trends, and customer behaviors. This project aims to answer questions such as:
 
 - Which stores perform best?  
