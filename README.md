@@ -4,9 +4,8 @@
 
 # Table of Contents
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
-- [Drug Safety & Adverse Event Analysis (FAERS 2023)](#drug-safety--adverse-event-analysis-faers-2023)
+- [FAERS Drug Safety Monitoring Pipeline](#faers-drug-safety-monitoring-pipeline)
 - [Spotify Listening History Analysis](#spotify-listening-history-analysis)
-- [Random Artist Generator](#random-artist-generator)
 
 ---
 
@@ -99,28 +98,44 @@ The dashboards visualize:
 `Python` `Pandas` `Tableau`
 
 ---
-# Drug Safety & Adverse Event Analysis (FAERS 2023)
+# FAERS Drug Safety Monitoring Pipeline
+![FAERS Dashboard]()
 
-![FAERS Dashboard](https://github.com/Joble9012/Images/blob/f94bd79004f421c224a338c76038a571d41d5e1f/FAERSDashboard.jpg)
-
-[**View Source Code**](https://github.com/Joble9012/FAERS2023AdverseEventsAnalysis)
+[**View Source Code**]()
 
 ## Overview
-This project analyzes the 2023 FDA Adverse Event Reporting System (FAERS) dataset to uncover insights on drug safety, patient risk, and reporting trends. Built using Databricks, the pipeline includes Bronze, Silver, and Gold layers, enabling clean, structured, and query-ready datasets for advanced analytics and dashboards. This is a continuous learning project; additional notebooks will expand on analysis, visualizations, and machine learning approaches.
+This project builds a data pipeline in Databricks to analyze adverse drug events using the FDA Adverse Event Reporting System (FAERS) dataset from **2021–2023**. The goal is to monitor drug safety by identifying patterns in reported adverse events.
 
-## What I Did
-- Designed and implemented a Databricks ETL pipeline to ingest, clean, and unify multiple FAERS tables.
+## Business Problem
+A pharmaceutical company has released several drugs in recent years, and the Head of Drug Safety wants to monitor their safety. The main concern is determining whether any drugs are showing unexpected increases in adverse events compared to previous years.
 
-- Created Silver layer tables for standardized demographic, drug, reaction, and outcome data.
+This project analyzes FAERS data to identify trends in adverse events, severe patient outcomes, and differences across patient demographics such as age groups and gender.
 
-- Developed Gold layer tables and queries for actionable insights on drug safety, including top drugs by death cases, frequent adverse reactions, and demographic risk.
+## Data Sources
+FAERS dataset tables used:
+- **Demographics** – Patient information such as age group and gender
+- **Drug** – Reported drugs involved in adverse events
+- **Reaction** – Reported adverse reactions
+- **Outcome** – Reported patient outcomes
 
-- Built a dashboard reflecting analytical results to provide interactive visualizations of patient safety metrics.
+## Pipeline Steps
+1. Load FAERS datasets (2021–2023) into Databricks.
+2. Validate incoming data using defined **data contracts**.
+3. Create **Silver tables** with cleaned and standardized data.
+4. Generate **Gold tables** to answer key drug safety questions.
+5. Visualize the results in a **Databricks dashboard**.
 
-- Ensured the workflow is modular and extendable, allowing for future analysis, additional notebooks, and machine learning experiments.
+## Key Analyses
+The Gold layer produces tables used to answer the following questions:
+
+- Which drugs have the most adverse event reports over time?
+- What are the most common reactions reported for each drug?
+- Which drugs are associated with severe outcomes?
+- Which age groups report the most adverse events?
+- How do adverse events differ between male and female patients?
 
 ## Tech Stack
-`Databricks` `Spark SQL` `Delta Lake` `Python (PySpark)` `Databricks SQL Dashboards` 
+`Databricks` `PySpark` `Delta Lake` `Databricks Jobs & Dashboards` `YAML Data Contracts` 
 
 ---
 
@@ -164,63 +179,5 @@ In designing the visualizations, my goal was to balance insight and simplicity�
 
 ## Tech Stack
 `Python` `Pandas` `Tableau`
-
----
-
-# Random Artist Generator
-
-![Random Artist Generator Screenshot](https://raw.githubusercontent.com/Joble9012/Images/642298eb37114e0e41da65824c479a177e199ff1/RandomArtistGeneratorImage.png)
-
-[View Source Code](https://github.com/Joble9012/RandomArtistGenerator)  
-
-## Overview
-As someone who listens to music every day, I found myself stuck in a loop — playing the same songs and artists over and over again. With so much music available, discovering something new often felt overwhelming.
-
-To break that cycle and explore fresh music, I built the Random Artist Generator — a Python application powered by the Spotify Web API. It helps users discover random artists, view their details, and store them locally for future listening.
-
-This project combines my love for music with programming, aiming to make music discovery effortless and engaging.
-
-## What I Did
-
-- **Designed and implemented** a full Python application that generates and manages random music artists using the **Spotify API**.
-
-- **Built two user interfaces:**
-  - A **command-line interface (CLI)** in `main.py` for terminal-based interaction.  
-  - A **graphical user interface (GUI)** in `app_ui.py` using **Tkinter**, allowing users to generate random artists, view saved artists, and clear the database.
-
-- **Integrated Spotify API** via the `spotipy` library and `SpotifyClientCredentials` for secure, authenticated artist data retrieval.
-
-- **Implemented database management** with **SQLite3:**
-  - Created and maintained an `artists.db` database through `artist_db.py`.  
-  - Added functionality to check for duplicates (`artist_exists`), insert new artists (`save_artist`), and clear all records (`clear_db.py`).
-
-- **Developed logic for random artist selection** in `spotify_client.py`:  
-  - Fetched artists using random search letters.  
-  - Filtered by popularity to ensure quality results.  
-  - Avoided duplicates using artist IDs.
-
-- **Enabled persistent data storage**, so previously generated artists are saved locally for later viewing.
-
-- **Created a separate viewer utility** (`view_artists.py`) to list all saved artists with their popularity, genres, and Spotify links.
-
-- **Enhanced user experience with:**
-  - Clickable Spotify links in the GUI.  
-  - Scrollable text areas for displaying multiple entries.  
-  - Confirmation dialogs and clear success/error messages.
-
-- **Documented dependencies** in a `requirements.txt` file for easy environment setup (`spotipy`, `python-dotenv`).
-
-- **Used environment variables** for secure Spotify API credentials management (`.env` file).
-
-
-## Upcoming Ideas Include  
-- [ ] Genre filter with checkboxes to discover artists from specific styles  
-- [ ] Album randomizer mode  
-- [ ] Improved and more polished UI  
-- [ ] Mobile-friendly version  
-- [ ] Integration with my Spotify listening history to make personalized suggestions
-
-## Tech Stack
-`Python` `Tkinter` `SQLite` `Spotipy` `Dotenv`
 
 
