@@ -101,7 +101,7 @@ The dashboards visualize:
 # FAERS Drug Safety Monitoring
 ![FAERS Dashboard]()
 
-[**View Source Code**]()
+[**View Source Code**](https://github.com/Joble9012/FAERSDrugSafetyMonitoring)
 
 ## Overview
 This project builds a data pipeline in Databricks to analyze adverse drug events using the FDA Adverse Event Reporting System (FAERS) dataset from **2021–2023**. The goal is to monitor drug safety by identifying patterns in reported adverse events.
