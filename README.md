@@ -99,7 +99,6 @@ The dashboards visualize:
 
 ---
 # FAERS Drug Safety Monitoring
-![FAERS Dashboard]()
 
 [**View Source Code**](https://github.com/Joble9012/FAERSDrugSafetyMonitoring)
 
