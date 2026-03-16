@@ -4,7 +4,7 @@
 
 # Table of Contents
 - [Bubble Tea Retail Sales Analysis](#bubble-tea-retail-sales-analysis)
-- [FAERS Drug Safety Monitoring Pipeline](#faers-drug-safety-monitoring-pipeline)
+- [FAERS Drug Safety Monitoring](#faers-drug-safety-monitoring)
 - [Spotify Listening History Analysis](#spotify-listening-history-analysis)
 
 ---
@@ -98,7 +98,7 @@ The dashboards visualize:
 `Python` `Pandas` `Tableau`
 
 ---
-# FAERS Drug Safety Monitoring Pipeline
+# FAERS Drug Safety Monitoring
 ![FAERS Dashboard]()
 
 [**View Source Code**]()
