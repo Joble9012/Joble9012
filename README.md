@@ -100,6 +100,9 @@ The dashboards visualize:
 ---
 # FAERS Drug Safety Monitoring
 
+![Dashboard](https://raw.githubusercontent.com/Joble9012/Images/e9b1038d050ffb4420101502e4b4f1e5a7d59584/FAERSDashboardPt1.jpg)
+![Dashboard](https://raw.githubusercontent.com/Joble9012/Images/e9b1038d050ffb4420101502e4b4f1e5a7d59584/FAERSDashboardPt2.jpg)
+
 [**View Source Code**](https://github.com/Joble9012/FAERSDrugSafetyMonitoring)
 
 ## Overview
