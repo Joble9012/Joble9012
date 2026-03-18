@@ -106,10 +106,10 @@ The dashboards visualize:
 [**View Source Code**](https://github.com/Joble9012/FAERSDrugSafetyMonitoring)
 
 ## Overview
-This project builds a data pipeline in Databricks to analyze adverse drug events using the FDA Adverse Event Reporting System (FAERS) dataset from **2021–2023**. The goal is to monitor drug safety by identifying patterns in reported adverse events.
+This project builds a data pipeline in Databricks to analyze adverse drug events using the FDA Adverse Event Reporting System (FAERS) dataset from **2016–2019**. The goal is to monitor drug safety by identifying patterns in reported adverse events.
 
 ## Business Problem
-A pharmaceutical company has released several drugs in recent years, and the Head of Drug Safety wants to monitor their safety. The main concern is determining whether any drugs are showing unexpected increases in adverse events compared to previous years.
+A pharmaceutical company has released several drugs in recent years, and the Head of Drug Safety wants to monitor their safety. The main concern is determining whether any drugs are showing unexpected increases in adverse events or the severity it compared to previous years.
 
 This project analyzes FAERS data to identify trends in adverse events, severe patient outcomes, and differences across patient demographics such as age groups and gender.
 
@@ -121,7 +121,7 @@ FAERS dataset tables used:
 - **Outcome** – Reported patient outcomes
 
 ## Pipeline Steps
-1. Load FAERS datasets (2021–2023) into Databricks.
+1. Load FAERS datasets (2016–2019) into Databricks.
 2. Validate incoming data using defined **data contracts**.
 3. Create **Silver tables** with cleaned and standardized data.
 4. Generate **Gold tables** to answer key drug safety questions.
@@ -130,11 +130,10 @@ FAERS dataset tables used:
 ## Key Analyses
 The Gold layer produces tables used to answer the following questions:
 
-- Which drugs have the most adverse event reports over time?
-- What are the most common reactions reported for each drug?
+- Which drugs have the most adverse event reports in the combined 3 years?
+- What are the most common reactions reported for each top drug reported?
 - Which drugs are associated with severe outcomes?
-- Which age groups report the most adverse events?
-- How do adverse events differ between male and female patients?
+- How do adverse events differ between gender and age groups of patients?
 
 ## Tech Stack
 `Databricks` `PySpark` `Delta Lake` `Databricks Jobs & Dashboards` `YAML Data Contracts` 
